@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 
 /* general config */
 *{
@@ -59,36 +61,52 @@
     border-radius: 10px;
 }
 
+.who-is{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    text-align: center;
+}
 
-@media (max-width: 600px) {
-    .hamburguer-button{
-        display: flex;
-    }
+.who-is-title{
+    font-size: 36px;
+    font-weight: 700;
+}
 
-    .navbar-links{
-        display: none;
-        width: 100%;
-    }
+.who-is-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px;
+}
 
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-links ul{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links li{
-        text-align: center;
-    }
-
-    .navbar-links li a{
-        padding:  .5rem 1rem;
-    }
-
-    .navbar-links.active{
-        display: flex;
-    }
+.pink{
+    color: #FF9494;
+}
+#dentist-img{
+    margin-bottom: -27px;
+}
+.main-square{
+    height: 170px;
+    background-color: #FF9494;
+    text-align: center;
+}
+.take-care-content{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px 0px 10px;
+}
+.take-care-text{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.visit-btn{
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #F9D1D1;
+    border-radius: 20px;
+    width: 230px;
+    height: 52px;
+    margin-top: 15px;
+    padding: 0px 10px 0px 10px;
+    border-style: none;
 }
