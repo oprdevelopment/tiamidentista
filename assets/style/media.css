@@ -24,13 +24,13 @@
     }
 
     .navbar-links li a{
-        padding:  .5rem 1rem;
+        padding: .5rem 1rem;
     }
 
     .navbar-links.active{
         display: flex;
         position: absolute;
-        top: 2.5rem;
-        background-color: #D9D9D9;
+        top: 3.1rem;
+        background-color: #F9D1D1;
     }
 }
