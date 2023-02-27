@@ -6,18 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/media.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
     <script src="script.js" defer></script>
-    <title>Dr. Michelle Franco</title>
+    <title>Dr. Michelle Franco - Dentista Odontopediatra</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="brand-title">Brand Name</div>
-        <a href="#" class="hamburguer-button">
+    <nav id="navbar">
+        <div id="brand-title">Brand Name</div>
+        <a href="#" id="hamburguer-button">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </a>
-        <div class="navbar-links">
+        <div id="navbar-links">
             <ul>
                 <li><a href="#">Quem Sou</a></li>
                 <li><a href="#">Meu Trabalho</a></li>
@@ -26,27 +36,32 @@
         </div>
     </nav>
     <main>
-        <div class="who-is">
+        <!-- seção inicial -->
+        <section id="who-is">
             <div>
                 <h1 class="title">Dra. Michelle Cardoso</h1>
-                <p class="who-is-text">
-                    A <span class="pink">15 anos</span> cuidando de sorrios, 
+                <p id="who-is-text">
+                    Há <span class="pink">15 anos</span> cuidando de sorrios, 
                     Especialista em <span class="pink">Odontopediatria</span>,
                     formada pela <span class="pink">UFMG</span>,
                     atendimento de <span class="pink">0 a 18 anos</span>
                 </p>
             </div>
             <img id="dentist-img" src="image 2.png" alt="">
-        </div>
-        <div class="take-care">
-            <div class="main-square">
-                <div class="take-care-content">
-                    <h1 class="take-care-text">Vamos cuidar da saúde do seu filho</h1>
-                    <button class="visit-btn">Agendar Consulta</button>
+        </section>
+
+        <!-- botão call to action -->
+        <section>
+            <div id="main-square">
+                <div id="take-care-content">
+                    <h1 id="take-care-text">Vamos cuidar da saúde do seu filho</h1>
+                    <button id="visit-btn">Agendar Consulta</button>
                 </div>
             </div>
-        </div>
-        <div class="accordion">
+        </section>
+
+        <!-- seção FAQ-->
+        <section id="accordion">
             <h1 class="title">Perguntas Frequentes</h1>
             <div class="contentBx">
                 <div class="accordion-title">List One</div>
@@ -87,12 +102,12 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <footer>
-            <div class="location">
+        </section>
+        <section id="contact">
+            <div id="location">
                 <div>
                     <h1 class="title">Onde Estamos</h1>
-                    <p class="adress">Rua Peixe Lua, Casa 30c, Vila Buenos Aires - São Paulo
+                    <p id="adress">Rua Peixe Lua, Casa 30c, Vila Buenos Aires - São Paulo
                     </p>
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.3620895414597!2d-46.51828808704199!3d-23.514211331569452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce618e8b6209c7%3A0x1039038883070ae3!2sComercial%20Ouro%20Fino.%20Artigos%20de%20Pipas%20e%20Temporada!5e0!3m2!1sen!2sbr!4v1676839070481!5m2!1sen!2sbr" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -117,7 +132,10 @@
                     </li>
                 </ul>
             </div>
-        </footer>
+        </section>
     </main>
+    <footer>
+        <p>made by oprdev_ &copy; 2023 All Rights Reserved</p>
+    </footer>
 </body>
 </html>

@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
 
 /* general config */
 *{
@@ -10,7 +8,9 @@
     list-style: none!important;
 }
 
-.navbar{
+
+/* navbar config */
+#navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,33 +19,33 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.brand-title{
+#brand-title{
     font-size: 1.5rem;
     margin: .5rem;
 }
 
-.navbar-links ul{
+#navbar-links ul{
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.navbar-links li{
+#navbar-links li{
     list-style: none;
 }
 
-.navbar-links li a{
+#navbar-links li a{
     text-decoration: none!important;
     color: #000000;
     padding: 1rem;
     display: block;
 }
 
-.navbar-links LI:hover{
+#navbar-links LI:hover{
     background-color: #ffaeae;
 }
 
-.hamburguer-button{
+#hamburguer-button{
     position: absolute;
     top: .75rem;
     right: 1rem;
@@ -56,14 +56,15 @@
     height: 21px;
 }
 
-.hamburguer-button .bar{
+#hamburguer-button .bar{
     height: 3px;
     width: 100%;
     background-color: #000000;
     border-radius: 10px;
 }
 
-.who-is{
+/* whois config */
+#who-is{
     font-family: 'Poppins', sans-serif;
     margin: 20px;
     text-align: center;
@@ -75,7 +76,7 @@
     font-weight: 700;
 }
 
-.who-is-text{
+#who-is-text{
     font-size: 14px;
     font-weight: 600;
     margin: 20px;
@@ -84,25 +85,31 @@
 .pink{
     color: #FF9494;
 }
+
 #dentist-img{
     margin-bottom: -27px;
 }
-.main-square{
+
+/* botão cta config */
+#main-square{
     height: 170px;
     background-color: #FF9494;
     text-align: center;
 }
-.take-care-content{
+
+#take-care-content{
     font-family: 'Poppins', sans-serif;
     padding: 10px 10px 0px 10px;
 }
-.take-care-text{
+
+#take-care-text{
     font-size: 24px;
     color: #FFFFFF;
     font-weight: 600;
     letter-spacing: 1px;
 }
-.visit-btn{
+
+#visit-btn{
     font-size: 24px;
     font-weight: 600;
     background-color: #F9D1D1;
@@ -113,24 +120,29 @@
     padding: 0px 10px 0px 10px;
     border-style: none;
 }
-.accordion{
+
+/* faq config */
+#accordion{
     font-family: 'Poppins', sans-serif;
     margin: 15px 0px 50px 0px;
     text-align: center;
 }
-.accordion .contentBx{
+
+#accordion .contentBx{
     position: relative;
     margin: 10px 20px auto;
    
 }
-.accordion .contentBx .accordion-title{
+
+#accordion .contentBx .accordion-title{
     position: relative;
     padding: 10px;
     background-color: #FF9494;
     color: #FFFFFF;
     cursor: pointer;
 }
-.accordion .contentBx .accordion-title::before{
+
+#accordion .contentBx .accordion-title::before{
     content: '+';
     position: absolute;
     top: 50%;
@@ -138,10 +150,12 @@
     transform: translateY(-50%);
     font-size: 1.5em  ;
 }
-.accordion .contentBx.active .accordion-title::before{
+
+#accordion .contentBx.active .accordion-title::before{
     content: '-';
 }
-.accordion .contentBx .content{
+
+#accordion .contentBx .content{
     position: relative;
     background-color: #F9D1D1;
     height: 0;
@@ -149,11 +163,14 @@
     transition: 0.5s;
     overflow-y: auto;
 }
-.accordion .contentBx.active .content{
+
+#accordion .contentBx.active .content{
     height: 150px;
     padding: 10px;
 }
-.location{
+
+/* footer */
+#location{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,33 +178,48 @@
     margin: 20px 20px 20px 20px;
     color: #FFFFFF!important;
 }
-.location div{
+
+#location div{
     margin-bottom: 20px;
 }
-.adress{
+
+#adress{
     font-family: 'Poppins', sans-serif;
 }
-.map{
+
+#map{
     width: 300px;
     height: 300px;
     border: 0;
 }
+
 #social{
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+
 #social-list{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
+
 #social-list li a img{
     width: 80px;
     height: 80px;
     border-radius: 20px;
 }
-footer{
+
+#contact{
     background-color: #160D0D;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    text-align: center;
     padding: 10px;
 }

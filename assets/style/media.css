@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@media (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
     .hamburguer-button{
         display: flex;
     }
