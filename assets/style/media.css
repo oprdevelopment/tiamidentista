@@ -32,20 +32,32 @@
         display: flex;
         position: absolute;
         top: 3.1rem;
-        background-color: #F9D1D1;
+        background-color: #ffce65;
     }
 }
-@media screen and (min-width:800px){
+@media screen and (min-width: 768px){
+    /* section who is */
     #who-is .title{
         font-size: 4.5vw;
     }
-    #who-is-text{
-        font-size: 20px !important;
-    }
+    
     #main-square{
         padding-top: 20px;
     }
     #visit-btn{
         cursor: pointer;
+    }
+
+    /* section contatc */
+    #contact{
+        display: flex;
+    }
+
+    #social{
+        width: 50%;
+    }
+    
+    #location{
+        width: 50%;
     }
 }
