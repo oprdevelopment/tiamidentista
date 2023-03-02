@@ -132,7 +132,7 @@ body{
     margin: 20px;
 }
 
-#differencial-card{
+.differencial-card{
     background-color: #FE84B1;
     color: white;
     border-radius: 20px;
@@ -142,7 +142,7 @@ body{
     padding: 15px;
 }
 
-#differencial-card > img{
+.differencial-card > img{
     display: block;
     margin: auto;
     width: 25%;
@@ -151,12 +151,12 @@ body{
     padding: 10px;
 }
 
-#differencial-card > h1{
+.differencial-card > h1{
     margin: 10px;
     font-family: "Poppins", sans-serif;
 }
 
-#differencial-card > p{
+.differencial-card > p{
     font-family: "Inter", sans-serif;
     margin-bottom: 5px;
 }
@@ -199,7 +199,6 @@ body{
     background-color: #f8dfa7;
     height: 0;
     transition: 0.5s;
-    overflow-y: hidden;
     border-radius: 0px 0px 20px 20px;
 }
 

@@ -60,8 +60,12 @@
     #location{
         width: 50%;
     }
-    #differencial-card{
-        width: 600px;
+    #cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .differencial-card{
+        width: 30vw;
     }
     #social-list li a img{
         width: 85px;
