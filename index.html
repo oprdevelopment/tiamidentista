@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
-    <!-- Css links -->
+
+    <!-- css links -->
     <link rel="stylesheet" href="assets/style/media.css">
     <link rel="stylesheet" href="assets/style/style.css">
 
@@ -17,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 
     <title>Dr. Michelle Franco - Dentista Odontopediatra</title>
 </head>
@@ -30,9 +35,10 @@
         </a>
         <div id="navbar-links">
             <ul>
-                <li><a href="#">Quem Sou</a></li>
-                <li><a href="#">Meu Trabalho</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#who-is">Quem Sou</a></li>
+                <li><a href="#">Nosso Trabalho</a></li>
+                <li><a href="#where-we-are">Onde Estamos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
     </nav>
@@ -60,37 +66,27 @@
                 </div>
             </div>
         </section>
-        <!-- secção nosso trablho -->
-        <section aria-label="Imagens do consultório" id="where-we-are">
-            <div id="where-we-are-head">
-                <h1 class="title">Onde Estamos</h1>
-                <p id="where-we-are-text">Temos uma clínica totalmente <span class="blue">tematizada</span> para nossas crianças se 
-                    sentirem <span class="blue">confortáveis</span> durante a consulta.
-                </p>
-            </div>
-            <!-- Slide Show do consultório -->
-            <div class="slideshow-container">
 
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                  <img src="./assets/image1.jpg" style="width:100%">
-                  <div class="text">Caption Text</div>
-                </div>
-              
-                <div class="mySlides fade">
-                  <img src="./assets/image2.jpg" style="width:100%">
-                  <div class="text">Caption Two</div>
-                </div>
-              
-                <div class="mySlides fade">
-                  <img src="./assets/image3.jpg" style="width:100%">
-                  <div class="text">Caption Three</div>
-                </div>
-              
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#8592;</a>
-                <a class="next" onclick="plusSlides(1)">&#8594;</a>
-              </div>
+        <!-- seção nosso trablho -->
+        <section id="our-work">
+            <h1 class="title">Nosso Trabalho</h1>
+            <div id="differencial-card">
+                <img class='card-icon' src="assets/images/child_icon.png" alt="icon">
+                <h1>Lorem Ipsum Dolor</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cum qui neque. Ipsa nesciunt assumenda id ratione, dolor, atque quas molestias deleniti nemo enim ab totam sit tempora tempore itaque.</p>
+            </div>
+
+            <div id="differencial-card">
+                <img class='card-icon' src="assets/images/child_icon.png" alt="icon">
+                <h1>Lorem Ipsum Dolor</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cum qui neque. Ipsa nesciunt assumenda id ratione, dolor, atque quas molestias deleniti nemo enim ab totam sit tempora tempore itaque.</p>
+            </div>
+
+            <div id="differencial-card">
+                <img class='card-icon' src="assets/images/child_icon.png" alt="icon">
+                <h1>Lorem Ipsum Dolor</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cum qui neque. Ipsa nesciunt assumenda id ratione, dolor, atque quas molestias deleniti nemo enim ab totam sit tempora tempore itaque.</p>
+            </div>
         </section>
 
         <!-- seção FAQ-->
@@ -136,6 +132,41 @@
                 </div>
             </div>
         </section>
+
+        <!-- seção onde estamos -->
+        <section aria-label="Imagens do consultório" id="where-we-are">
+            <div id="where-we-are-head">
+                <h1 class="title">Onde Estamos</h1>
+                <p id="where-we-are-text">Temos uma clínica totalmente <span class="blue">tematizada</span> para nossas crianças se 
+                    sentirem <span class="blue">confortáveis</span> durante a consulta.
+                </p>
+            </div>
+            <!-- Slide Show do consultório -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="./assets/image1.jpg" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="./assets/image2.jpg" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="./assets/image3.jpg" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+                <a class="next" onclick="plusSlides(1)">&#8594;</a>
+              </div>
+        </section>
+
+        <!-- seção contato -->
         <section id="contact">
             <div id="email-area">
                 <h1 class="title">Contato</h1>
@@ -163,13 +194,13 @@
                 </ul>
             </div>
             <div id="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.3620895414597!2d-46.51828808704199!3d-23.514211331569452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce618e8b6209c7%3A0x1039038883070ae3!2sComercial%20Ouro%20Fino.%20Artigos%20de%20Pipas%20e%20Temporada!5e0!3m2!1sen!2sbr!4v1676839070481!5m2!1sen!2sbr" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.3620895414597!2d-46.51828808704199!3d-23.514211331569452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce618e8b6209c7%3A0x1039038883070ae3!2sComercial%20Ouro%20Fino.%20Artigos%20de%20Pipas%20e%20Temporada!5e0!3m2!1sen!2sbr!4v1676839070481!5m2!1sen!2sbr" id="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
     <footer>
         <p>made by oprdev_ &copy; 2023 All Rights Reserved</p>
     </footer>
-    
 </body>
 </html>
+

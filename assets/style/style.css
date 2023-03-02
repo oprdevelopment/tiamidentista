@@ -8,7 +8,6 @@
     list-style: none!important;
 }
 
-
 /* navbar config */
 #navbar{
     display: flex;
@@ -74,6 +73,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
 }
 
 #who-is-text{
@@ -121,6 +121,91 @@
     border-style: none;
 }
 
+/* our work config */
+#our-work{
+    margin: 20px;
+}
+
+#differencial-card{
+    background-color: #FE84B1;
+    color: white;
+    border-radius: 20px;
+    width: 75vw;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#differencial-card > img{
+    display: block;
+    margin: auto;
+    width: 25%;
+    background-color: #FCD684;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#differencial-card > h1{
+    text-align: center;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#differencial-card > p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 5px;
+}
+
+/* faq config */
+#accordion{
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0px 50px 0px;
+    text-align: center;
+}
+
+#accordion .contentBx{
+    position: relative;
+    margin: 10px 20px auto;
+   
+}
+
+#accordion .contentBx .accordion-title{
+    position: relative;
+    padding: 10px;
+    background-color: #FF9494;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#accordion .contentBx .accordion-title::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-size: 1.5em  ;
+}
+
+#accordion .contentBx.active .accordion-title::before{
+    content: '-';
+}
+
+#accordion .contentBx .content{
+    position: relative;
+    background-color: #F9D1D1;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+#accordion .contentBx.active .content{
+    height: 150px;
+    padding: 10px;
+}
+
+/* onde estamos config */
 #where-we-are{
     margin: 0px 20px 0px 20px;
 }
@@ -131,6 +216,7 @@
 #where-we-are-text{
     font-family: 'Poppins', sans-serif;
 }
+
 .blue{
     color: #24A89F;
 }
@@ -197,55 +283,9 @@
     to {opacity: 1}
   }
 
-/* faq config */
-#accordion{
-    font-family: 'Poppins', sans-serif;
-    margin: 15px 0px 50px 0px;
-    text-align: center;
-}
 
-#accordion .contentBx{
-    position: relative;
-    margin: 10px 20px auto;
-   
-}
 
-#accordion .contentBx .accordion-title{
-    position: relative;
-    padding: 10px;
-    background-color: #FF9494;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-#accordion .contentBx .accordion-title::before{
-    content: '+';
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
-    font-size: 1.5em  ;
-}
-
-#accordion .contentBx.active .accordion-title::before{
-    content: '-';
-}
-
-#accordion .contentBx .content{
-    position: relative;
-    background-color: #F9D1D1;
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
-    overflow-y: auto;
-}
-
-#accordion .contentBx.active .content{
-    height: 150px;
-    padding: 10px;
-}
-
-/* footer */
+/* contact */
 #location{
     display: flex;
     flex-direction: column;
@@ -301,7 +341,7 @@
     margin-bottom: 20px;
 }
 
-
+/* footer config */
 footer{
     color: white;
     font-family: 'Roboto Mono', monospace;
