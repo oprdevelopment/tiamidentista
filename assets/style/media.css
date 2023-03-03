@@ -60,15 +60,6 @@
     #location{
         width: 50%;
     }
-<<<<<<< HEAD
-
-    #our-work{
-        display: flex;
-    }
-
-    .differencial-card{
-        width: 300px;
-=======
     #cards{
         display: flex;
         justify-content: space-between;
@@ -84,6 +75,5 @@
     }
     #social-list{
         margin-top: 60px;
->>>>>>> heitor
     }
 }
