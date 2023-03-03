@@ -9,7 +9,15 @@
     overflow-x: hidden;
 }
 
-
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
 /* navbar config */
 #navbar{
     display: flex;
@@ -17,7 +25,7 @@
     align-items: center;
     background-color: #FE84B1;
     color: #000000;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 #brand-title{
@@ -32,7 +40,6 @@
 }
 
 #navbar-links li{
-    list-style: none;
     font-family: "Inter", sans-serif;
 }
 
@@ -70,15 +77,12 @@
 #who-is{
     font-family: 'Inter', sans-serif;
     margin-top: 20px;
-    text-align: center;
     overflow-y: hidden;
 }
 
 .title{
-    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
 }
 
 #who-is-text{
@@ -94,11 +98,9 @@
 /* botão cta config */
 #main-square{
     background-color: #FE84B1;
-    text-align: center;
 }
 
 #take-care-content{
-    font-family: 'Poppins', sans-serif;
     padding: 10px 10px 0px 10px;
 }
 
@@ -150,22 +152,26 @@
 }
 
 .differencial-card > h1{
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> heitor
     margin: 10px;
     font-family: "Poppins", sans-serif;
 }
 
 .differencial-card > p{
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> heitor
     font-family: "Inter", sans-serif;
     margin-bottom: 5px;
 }
 
 /* faq config */
 #accordion{
-    font-family: 'Poppins', sans-serif;
     margin: 20px 0px 0px 0px 0px;
-    text-align: center;
 }
 
 #accordion .contentBx{
@@ -201,7 +207,6 @@
     background-color: #f8dfa7;
     height: 0;
     transition: 0.5s;
-    overflow-y: hidden;
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -215,7 +220,6 @@
     margin: 0px 20px 30px 20px;
 }
 #where-we-are-head{
-    text-align: center;
     margin: 30px 0px 30px 0px;
 }
 #where-we-are-text{
@@ -231,7 +235,6 @@
     max-width: 1000px;
     position: relative;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
   }
   
   /* Hide the images by default */
@@ -274,7 +277,6 @@
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
   }
   
   /* Fading animation */
@@ -293,17 +295,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     margin: 20px 20px 20px 20px;
     color: #FFFFFF!important;
 }
 
 #location div{
     margin-bottom: 20px;
-}
-
-#adress{
-    font-family: 'Poppins', sans-serif;
 }
 
 #map{
@@ -313,7 +310,6 @@
 }
 
 #social{
-    text-align: center;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -346,8 +342,6 @@
     background-color: #160D0D;
     padding: 10px;
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
 }
 
 /* footer config */
@@ -355,6 +349,5 @@ footer{
     color: white;
     font-family: 'Roboto Mono', monospace;
     background-color: black;
-    text-align: center;
     padding: 10px;
 }

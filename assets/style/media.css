@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #hamburguer-button{
-        display: flex !important; 
+        display: flex ; 
     }
 
     #navbar-links{
@@ -60,6 +60,7 @@
     #location{
         width: 50%;
     }
+<<<<<<< HEAD
 
     #our-work{
         display: flex;
@@ -67,5 +68,22 @@
 
     .differencial-card{
         width: 300px;
+=======
+    #cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .differencial-card{
+        width: 30vw;
+    }
+    #social-list li a img{
+        width: 85px;
+        border-radius: 20px;
+        background-color: #FE84B1;
+        padding: 15px;
+    }
+    #social-list{
+        margin-top: 60px;
+>>>>>>> heitor
     }
 }
