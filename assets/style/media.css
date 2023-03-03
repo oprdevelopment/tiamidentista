@@ -60,4 +60,12 @@
     #location{
         width: 50%;
     }
+
+    #our-work{
+        display: flex;
+    }
+
+    .differencial-card{
+        width: 300px;
+    }
 }

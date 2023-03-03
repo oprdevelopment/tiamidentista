@@ -130,7 +130,7 @@
     margin: 20px;
 }
 
-#differencial-card{
+.differencial-card{
     background-color: #FE84B1;
     color: white;
     border-radius: 20px;
@@ -140,7 +140,7 @@
     padding: 15px;
 }
 
-#differencial-card > img{
+.differencial-card > img{
     display: block;
     margin: auto;
     width: 25%;
@@ -149,13 +149,13 @@
     padding: 10px;
 }
 
-#differencial-card > h1{
+.differencial-card > h1{
     text-align: center;
     margin: 10px;
     font-family: "Poppins", sans-serif;
 }
 
-#differencial-card > p{
+.differencial-card > p{
     text-align: center;
     font-family: "Inter", sans-serif;
     margin-bottom: 5px;
