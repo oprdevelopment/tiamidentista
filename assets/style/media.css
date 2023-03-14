@@ -26,13 +26,14 @@
 
     #navbar-links li a{
         padding: .5rem 1rem;
+        color: #FFFFFF;
     }
 
     #navbar-links.active{
         display: flex;
         position: absolute;
         top: 3.1rem;
-        background-color: #ffce65;
+        background-color: #2dd5ca;
     }
 }
 @media screen and (min-width: 768px){
