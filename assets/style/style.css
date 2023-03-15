@@ -93,6 +93,9 @@ body{
 
 #dentist-img{
     margin-bottom: -27px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
 }
 
 /* botão cta config */
