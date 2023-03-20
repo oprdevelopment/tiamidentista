@@ -93,6 +93,9 @@ body{
 
 #dentist-img{
     margin-bottom: -27px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
 }
 
 /* botão cta config */
@@ -115,7 +118,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 1.2em;
     font-weight: 600;
-    background-color: #FCD684;
+    background-color: #2bd1c6;
     border-radius: 20px;
     margin: 15px auto 15px auto;
     cursor: pointer;
@@ -126,7 +129,7 @@ body{
 }
 
 #visit-btn:hover{
-    background-color: #fadd9d;
+    background-color: #2fe1d5;
 }
 
 /* our work config */
@@ -148,7 +151,7 @@ body{
     display: block;
     margin: auto;
     width: 25%;
-    background-color: #FCD684;
+    background-color: #2bd1c6;
     border-radius: 20px;
     padding: 10px;
 }
@@ -176,7 +179,7 @@ body{
 #accordion .contentBx .accordion-title{
     position: relative;
     padding: 10px;
-    background-color: #FCD684;
+    background-color: #29c6bb;
     color: black;
     cursor: pointer;
     border-radius: 20px 20px 0px 0px;
@@ -198,7 +201,7 @@ body{
 #accordion .contentBx .content{
     font-family: "Inter", sans-serif;
     position: relative;
-    background-color: #f8dfa7;
+    background-color: #2fe1d5;
     height: 0;
     transition: 0.5s;
     border-radius: 0px 0px 20px 20px;
