@@ -36,6 +36,12 @@
     }
 }
 @media screen and (min-width: 768px){
+    
+    #logo{
+        height: 55px;
+        margin: 10px 0px 10px 20px;
+    }
+    
     /* section who is */
     #who-is .title{
         font-size: 4.5vw;
@@ -67,6 +73,11 @@
     .differencial-card{
         width: 30vw;
     }
+
+    #accordion .contentBx.active .content{
+        height: 100px;
+    }
+
     #social-list li a img{
         width: 75px;
         border-radius: 20px;
