@@ -208,7 +208,7 @@ body{
 }
 
 #accordion .contentBx.active .content{
-    height: 200px;
+    height: 100px;
     padding: 15px;
 }
 
@@ -337,6 +337,20 @@ body{
 
 #social-list li:hover {
     transform: translateY(5px);
+}
+
+#social > h1{
+    margin-bottom: 20px;
+}
+
+#social > p,a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#social > p, a:hover{
+    color: #FE84B1;
 }
 
 #contact{

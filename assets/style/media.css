@@ -68,7 +68,7 @@
         width: 30vw;
     }
     #social-list li a img{
-        width: 85px;
+        width: 75px;
         border-radius: 20px;
         background-color: #FE84B1;
         padding: 15px;
@@ -76,4 +76,5 @@
     #social-list{
         margin-top: 60px;
     }
+
 }
