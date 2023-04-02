@@ -32,9 +32,8 @@ body{
 }
 
 #logo{
-    display: block;
-    height: 45px;
-    margin: 10px;
+    width: 100px;
+    height: auto !important;
 }
 
 #navbar-links ul{
