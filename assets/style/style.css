@@ -29,6 +29,7 @@ body{
     background-color: #FE84B1;
     color: #000000;
     height: 55px;
+    overflow-y: hidden;
 }
 
 #logo{
